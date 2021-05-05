@@ -65,11 +65,14 @@ ROOT_URLCONF = 'tutorial.urls'
 
 CORS_ORIGIN_WHITELIST = [
     'http://127.0.0.1:8000',
-    'http://172.26.0.1:8000'
+    'http://172.30.1.44:8000',
+    'http://172.21.80.1:8000',
 ]
 '''
-ALLOWED_HOSTS=['http://172.26.0.1:8000',
-'http://127.0.0.1:8000']
+ALLOWED_HOSTS=['http://172.30.1.44:8000',
+'http://127.0.0.1:8000',
+'http://172.21.80.1:8000',
+]
 '''
 
 TEMPLATES = [
